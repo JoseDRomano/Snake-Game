@@ -44,7 +44,6 @@ function update() {
    if(snakeX == foodX && snakeY == foodY) {
       snakeBody.push([foodX,foodY]) //22:47
       placeFood();
-
    }
    context.fillStyle = "lime";
    //we need to multiply by blocksize otherwise it will move only 1 pixel at a time
